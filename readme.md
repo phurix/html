@@ -1,3 +1,7 @@
+# Phurix Laravel 12 compatibility fork
+
+This branch is maintained as `phurix/html` for the Phurix portal. It preserves the `Collective\Html` namespace and Form/Html facades while targeting Laravel 12 and PHP 8.2 or newer. Support and issue tracking are in this repository; upstream LaravelCollective is abandoned. The original MIT licence and credits are retained below. This compatibility branch does not change the older Laravel 11 branch used by existing deployments.
+
 ![LaravelCollective HTML](LaravelCollectiveHTML-banner.png)
 
 [![Build Status](https://travis-ci.org/LaravelCollective/html.svg)](https://travis-ci.org/LaravelCollective/html)
