@@ -1,11 +1,11 @@
 {
-    "name": "laravelcollective/html",
-    "description": "HTML and Form Builders for the Laravel Framework",
+    "name": "phurix/html",
+    "description": "Phurix-maintained compatibility fork of LaravelCollective HTML for Laravel 12",
     "license": "MIT",
-    "homepage": "https://laravelcollective.com",
+    "homepage": "https://github.com/phurix/html",
     "support": {
-        "issues": "https://github.com/LaravelCollective/html/issues",
-        "source": "https://github.com/LaravelCollective/html"
+        "issues": "https://github.com/phurix/html/issues",
+        "source": "https://github.com/phurix/html"
     },
     "authors": [
         {
@@ -18,17 +18,17 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
-        "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/view": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+        "php": "^8.2",
+        "illuminate/http": "^12.0",
+        "illuminate/routing": "^12.0",
+        "illuminate/session": "^12.0",
+        "illuminate/support": "^12.0",
+        "illuminate/view": "^12.0"
     },
     "require-dev": {
-        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^12.0",
         "mockery/mockery": "~1.0",
-        "phpunit/phpunit": "~8.5|^9.5.10"
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
@@ -39,9 +39,6 @@
         ]
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "6.x-dev"
-        },
         "laravel": {
             "providers": [
                 "Collective\\Html\\HtmlServiceProvider"
@@ -53,6 +50,5 @@
         }
     },
     "minimum-stability": "dev",
-    "abandoned": "spatie/laravel-html",
     "prefer-stable": true
 }
